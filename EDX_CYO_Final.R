@@ -1046,12 +1046,3 @@ results_comparison$`# of Field Engineers`[5] <- calc_field_engineer(clusters_siz
 #to be used during the analysis phase.
 save(results_comparison, file="data/results_comparison.RData")
 
-echo "# EDX_CYO" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/fmitidieri/EDX_CYO.git
-git push -u origin main
-
-
